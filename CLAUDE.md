@@ -14,7 +14,7 @@ apps/
   simulator/        # 가상 구매자·판매자 봇 + 시나리오 엔진 (Node)
   control-panel/    # 시뮬레이터 컨트롤 패널 (작은 웹 UI)
 packages/
-  api-client/       # shop-sim-api 스펙 패키지(버전 고정)에서 생성
+  api-client/       # shop-sim-api 스펙 패키지(버전 고정)에서 Hey API로 생성 (ADR 0017)
   vendor-client/    # shop-sim-vendor 장애 주입 API 클라이언트
 k6/                 # 부하 테스트 스크립트 (14단계)
 ```
